@@ -1,0 +1,24 @@
+[project]
+name = "azure-res-validator"
+version = "0.1.0"
+description = "CLI to validate expected Azure resource scale/configuration against Azure Resource Graph"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "AzureResValidator" }]
+dependencies = [
+    "github-copilot-sdk>=0.1.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+azure-res-validator = "azure_res_validator.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

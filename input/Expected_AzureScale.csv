@@ -1,0 +1,5 @@
+S.No,Azure Resource Type,Azure Resource Name,Configuration
+1,Azure SQL DataBase,az-sql-001,P2
+2,Container App,llm-rag,Generic (manage)
+3,Storage account,acaenvstoragevolumeatrzd,Standard_LRS
+4,Virtual Machine,openemr-stage-vm,"Standard_D2s_v3 (2 vcpus , 8 GiB memory)"
