@@ -1,4 +1,4 @@
-# Azure Resource Scale Validator (CLI)
+# Azure Resource Scale Validator (CLI) - New
 
 Simple Python CLI to:
 1. Read expected Azure resources from CSV
